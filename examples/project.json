@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "assets": {
+    "hero": {
+      "path": "assets/hero.txt",
+      "sha256": "6991d6296518df0e58f3955890c73ba3cff557d0aa9aa9b7e5147a1a6fc87119"
+    },
+    "street": {
+      "path": "assets/street.txt",
+      "sha256": "9d32f0676a4b583e9a784841e5c326f00763ca5db8a13e8a1b9acf26ef124c10"
+    }
+  },
+  "shots": {
+    "S010": {
+      "assets": [
+        "hero",
+        "street"
+      ],
+      "needs": []
+    },
+    "S020": {
+      "assets": [
+        "hero"
+      ],
+      "needs": [
+        "S010"
+      ]
+    },
+    "S030": {
+      "assets": [],
+      "needs": [
+        "S020"
+      ]
+    }
+  }
+}
