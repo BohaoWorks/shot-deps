@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "assets": {
+    "voice": {
+      "path": "assets/missing-voice.wav"
+    }
+  },
+  "shots": {
+    "S010": {
+      "assets": [
+        "voice"
+      ],
+      "needs": []
+    },
+    "S020": {
+      "assets": [],
+      "needs": [
+        "S010"
+      ]
+    }
+  }
+}
